@@ -4,10 +4,12 @@ if you want to generate a simple diff report between 2 files you use this.
 why did i make this. for reasons
 
 # How to Build
+For Windows:
 ```cmd
 go build -o diff.exe
 ```
 
+For Linux:
 ```bash
 GOOS=linux GOARCH=amd64 go build -o diff
 ```
