@@ -24,7 +24,7 @@ set format to text or pdf or html to specify format
 default is text
 
 # Note
-this can handle files from 2 files upwards to n files. Go nuts
+this can handle files from 2 files upwards to n files. Go nuts. 
 just because you can abuse this program doesnt mean you should pass n files. do those kind of stuff somewhere else
 ```
 .\diff -format=text "\path\to\file1.yml" "\path\to\file2.yml" "\path\to\file3.yml"
@@ -43,7 +43,6 @@ Line 2 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\
 
 # Footnote
 I didn't write this program. i just generated it and tested the results.
-why
-just because
-not because i can't write
-i didn't want to spend too much time on this trivial thing
+why?
+just because.
+not because i can't write.i didn't want to spend too much time on this trivial thing
