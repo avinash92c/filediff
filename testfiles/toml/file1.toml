@@ -1,0 +1,55 @@
+# Development Environment Configuration
+[dev]
+host = "localhost"
+port = 8080
+database = "dev_db"
+debug = true
+
+# API Configuration for Development
+[dev.api]
+url = "http://localhost:3000/api"
+timeout = 30
+key = """
+dev-api-key-line1
+dev-api-key-line2
+dev-api-key-line3
+"""
+
+# Logging Configuration
+[dev.logging]
+level = "debug"
+output = "console"
+file = "/var/log/dev.log"
+
+# Certificate (Multiline value)
+[dev.security]
+enabled = true
+encryption_key = """
+-----BEGIN CERTIFICATE-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7ygHZebZqzBzZjVZsh8qT
+EAZ4ZpDb0YXXtQ8NnLX4TbvnU14f+QcmOaVqWTkCB6OiwUK6KvEYr89VQom7TIBn
+0A1uT4wU7azFNzRrV87ssQAlGBjCdkGv8Z/qaxtYoqMF6bgFSu8Ty9MjfqW5zAVQ
+5Jc6AxJlqZcgsJDJLPt8bH6je9F6GbO1mHhWSq/q1Gp6Z7lGVNbo/YV8W2rM5lwb
+Y7trpH1kk+1tDTmxjUg2l81LOd8nF3MZmTx8nnd5fDsBFroMnT0QQbpdw6RAzdpY
+m96pSbuAw4/TeVZMXqTkOjRoxdK7VqjPAwD5u0TLCJOG+MNwThlN4xzEwVJt/RMv
+P0HRp5DPy/A3mYI3lfaxC9ngUffDsjskqgIDAQAB
+-----END CERTIFICATE-----
+"""
+
+# Feature Toggles
+[dev.features]
+feature_1 = true
+feature_2 = false
+
+# Database credentials (same for all environments)
+[db]
+user = "root"
+password = "password123"
+host = "localhost"
+port = 5432
+
+# Empty line for testing blank line handling
+
+[dev.security]
+enabled = true
+encryption_key = "dev_encryption_key"

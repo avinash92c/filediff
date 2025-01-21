@@ -1,0 +1,106 @@
+Line 1 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml: # Development Environment Configuration
+  G:\git\filediff\testfiles\yml\file2.yml: # Staging Environment Configuration
+
+Line 2 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml: dev:
+  G:\git\filediff\testfiles\yml\file2.yml: staging:
+
+Line 3 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:   host: "localhost"
+  G:\git\filediff\testfiles\yml\file2.yml:   host: "staging.example.com"
+
+Line 4 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:   port: 8080
+  G:\git\filediff\testfiles\yml\file2.yml:   port: 8081
+
+Line 5 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:   database: "dev_db"
+  G:\git\filediff\testfiles\yml\file2.yml:   database: "staging_db"
+
+Line 6 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:   debug: true
+  G:\git\filediff\testfiles\yml\file2.yml:   debug: false
+
+Line 8 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:   # API Configuration for Development
+  G:\git\filediff\testfiles\yml\file2.yml:   # API Configuration for Staging
+
+Line 10 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:     url: "http://localhost:3000/api"
+  G:\git\filediff\testfiles\yml\file2.yml:     url: "http://staging.example.com/api"
+
+Line 11 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:     timeout: 30
+  G:\git\filediff\testfiles\yml\file2.yml:     timeout: 45
+
+Line 13 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:       dev-api-key-line1
+  G:\git\filediff\testfiles\yml\file2.yml:       staging-api-key-line1
+
+Line 14 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:       dev-api-key-line2
+  G:\git\filediff\testfiles\yml\file2.yml:       staging-api-key-line2
+
+Line 15 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:       dev-api-key-line3
+  G:\git\filediff\testfiles\yml\file2.yml:       staging-api-key-line3
+
+Line 17 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:   # Logging Configuration
+  G:\git\filediff\testfiles\yml\file2.yml:   # Logging Configuration (Changed logging level)
+
+Line 19 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:     level: "debug"
+  G:\git\filediff\testfiles\yml\file2.yml:     level: "info"
+
+Line 20 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:     output: "console"
+  G:\git\filediff\testfiles\yml\file2.yml:     output: "file"
+
+Line 21 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:     file: "/var/log/dev.log"
+  G:\git\filediff\testfiles\yml\file2.yml:     file: "/var/log/staging.log"
+
+Line 28 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:       MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7ygHZebZqzBzZjVZsh8qT
+  G:\git\filediff\testfiles\yml\file2.yml:       MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzEOMWc2MKotTbH02tnoU5
+
+Line 29 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:       EAZ4ZpDb0YXXtQ8NnLX4TbvnU14f+QcmOaVqWTkCB6OiwUK6KvEYr89VQom7TIBn
+  G:\git\filediff\testfiles\yml\file2.yml:       5+Qz5G7V9QmKlC57rI1GVZyF7ddM6flzGV1/Zhr5fmJym2XKj+RUgNdqM7aIFfD5
+
+Line 30 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:       0A1uT4wU7azFNzRrV87ssQAlGBjCdkGv8Z/qaxtYoqMF6bgFSu8Ty9MjfqW5zAVQ
+  G:\git\filediff\testfiles\yml\file2.yml:       6Rb9XmfMmpfjfMwF/FEHHdLnktTj9lfE8HtbIxsTjp5FxiZ6RZ1eGh0IQbdz0WfO
+
+Line 31 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:       5Jc6AxJlqZcgsJDJLPt8bH6je9F6GbO1mHhWSq/q1Gp6Z7lGVNbo/YV8W2rM5lwb
+  G:\git\filediff\testfiles\yml\file2.yml:       wPrTVV+6IKiR2eqtx8a12p9DFYqayKw6t3HV4yVfoFkbPtRfZ9LMQ/GbO3gBfWzL
+
+Line 32 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:       Y7trpH1kk+1tDTmxjUg2l81LOd8nF3MZmTx8nnd5fDsBFroMnT0QQbpdw6RAzdpY
+  G:\git\filediff\testfiles\yml\file2.yml:       d0H3aSO3jH2gIkZGrV6lgNzHk9nI9zW8g4m8z57bAmUVybPf1OqUgtBaMx6+0kgZ
+
+Line 33 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:       m96pSbuAw4/TeVZMXqTkOjRoxdK7VqjPAwD5u0TLCJOG+MNwThlN4xzEwVJt/RMv
+  G:\git\filediff\testfiles\yml\file2.yml:       CmjsuJpRagOSwoZbUGAZuPAoFqZUKVz6yRo4BdJmBpk7XYIVJquU1MkNTtiDRs3g
+
+Line 34 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:       P0HRp5DPy/A3mYI3lfaxC9ngUffDsjskqgIDAQAB
+  G:\git\filediff\testfiles\yml\file2.yml:       OQIDAQAB
+
+Line 38 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:     feature_1: true
+  G:\git\filediff\testfiles\yml\file2.yml:     feature_1: false
+
+Line 39 differs between file G:\git\filediff\testfiles\yml\file1.yml and file G:\git\filediff\testfiles\yml\file2.yml:
+  G:\git\filediff\testfiles\yml\file1.yml:     feature_2: false
+  G:\git\filediff\testfiles\yml\file2.yml:     feature_2: true
+
+Line 48 only in G:\git\filediff\testfiles\yml\file1.yml
+
+Line 49 only in G:\git\filediff\testfiles\yml\file1.yml
+
+Line 50 only in G:\git\filediff\testfiles\yml\file1.yml
+

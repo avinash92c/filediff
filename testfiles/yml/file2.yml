@@ -1,0 +1,50 @@
+# Staging Environment Configuration
+staging:
+  host: "staging.example.com"
+  port: 8081
+  database: "staging_db"
+  debug: false
+
+  # API Configuration for Staging
+  api:
+    url: "http://staging.example.com/api"
+    timeout: 45
+    key: |
+      staging-api-key-line1
+      staging-api-key-line2
+      staging-api-key-line3
+
+  # Logging Configuration (Changed logging level)
+  logging:
+    level: "info"
+    output: "file"
+    file: "/var/log/staging.log"
+
+  # Certificate (Multiline value)
+  security:
+    enabled: true
+    encryption_key: |
+      -----BEGIN CERTIFICATE-----
+      MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzEOMWc2MKotTbH02tnoU5
+      5+Qz5G7V9QmKlC57rI1GVZyF7ddM6flzGV1/Zhr5fmJym2XKj+RUgNdqM7aIFfD5
+      6Rb9XmfMmpfjfMwF/FEHHdLnktTj9lfE8HtbIxsTjp5FxiZ6RZ1eGh0IQbdz0WfO
+      wPrTVV+6IKiR2eqtx8a12p9DFYqayKw6t3HV4yVfoFkbPtRfZ9LMQ/GbO3gBfWzL
+      d0H3aSO3jH2gIkZGrV6lgNzHk9nI9zW8g4m8z57bAmUVybPf1OqUgtBaMx6+0kgZ
+      CmjsuJpRagOSwoZbUGAZuPAoFqZUKVz6yRo4BdJmBpk7XYIVJquU1MkNTtiDRs3g
+      OQIDAQAB
+      -----END CERTIFICATE-----
+
+  features:
+    feature_1: false
+    feature_2: true
+
+  # Database credentials (same for all environments)
+  db:
+    user: "root"
+    password: "password123"
+    host: "localhost"
+    port: 5432
+
+  # A property only in Staging (testing missing properties)
+  new_feature:
+    enabled: true
